@@ -1,0 +1,29 @@
+.projects{
+    width: 100%;
+    min-height: 80vh;
+    background-color: #151111;
+    color: white;
+}
+
+.project{
+    font-family: 'Quantico', sans-serif;
+    /*height: 300px;*/
+    transition: all 7s;
+    color: white;
+    padding: 14px;
+    border: 0.5px solid #151111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    cursor: grab;
+}
+
+.p-box{
+    padding: 20px;
+    margin: 20px;
+    transition: all 6s;    
+}
+
+

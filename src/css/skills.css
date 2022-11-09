@@ -1,0 +1,35 @@
+.skills{
+    line-height: 1.5rem;
+    /*font-size: 22px;*/
+    margin: 0px;
+    letter-spacing: 0.2rem;
+    min-height: 80vh;
+    /*background-color: #151111;*/
+    background-color: burlywood;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Chakra Petch', sans-serif;
+    padding-bottom: 20vh;
+}
+
+.skill-container{
+    width: 100%;
+    display: grid;
+    /*grid-template-columns: 1fr 1fr;*/
+    grid-template-columns: 1fr;
+}
+
+.skills1, .skills2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+ul{
+    list-style: none;
+    text-align: center; 
+    letter-spacing: 0.4rem;
+}
