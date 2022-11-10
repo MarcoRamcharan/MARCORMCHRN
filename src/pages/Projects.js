@@ -25,6 +25,42 @@ const Projects = () => {
                     <Link to='/'><FaGithub/></Link>
                 </div>
             </div>
+            <div class="p-box">
+                <div className="p-box-menu">
+                    <h3>INDEED CLONE</h3>
+                    <h3 onClick={toggleAcc}>{toggle ? <FaChevronUp/> : <FaChevronDown/>}</h3>
+                </div>
+                <div style={toggle ? {height:'200px'}: {height:'0'}} className="p-box-content">
+                    <p>full stack</p>
+                    <p>REACT || NODE || MONGODB</p>
+                    <Link to='/'>LIVE DEMO</Link>
+                    <Link to='/'><FaGithub/></Link>
+                </div>
+            </div>
+            <div class="p-box">
+                <div className="p-box-menu">
+                    <h3>INDEED CLONE</h3>
+                    <h3 onClick={toggleAcc}>{toggle ? <FaChevronUp/> : <FaChevronDown/>}</h3>
+                </div>
+                <div style={toggle ? {height:'200px'}: {height:'0'}} className="p-box-content">
+                    <p>full stack</p>
+                    <p>REACT || NODE || MONGODB</p>
+                    <Link to='/'>LIVE DEMO</Link>
+                    <Link to='/'><FaGithub/></Link>
+                </div>
+            </div>
+            <div class="p-box">
+                <div className="p-box-menu">
+                    <h3>INDEED CLONE</h3>
+                    <h3 onClick={toggleAcc}>{toggle ? <FaChevronUp/> : <FaChevronDown/>}</h3>
+                </div>
+                <div style={toggle ? {height:'200px'}: {height:'0'}} className="p-box-content">
+                    <p>full stack</p>
+                    <p>REACT || NODE || MONGODB</p>
+                    <Link to='/'>LIVE DEMO</Link>
+                    <Link to='/'><FaGithub/></Link>
+                </div>
+            </div>
     </div>
      );
 }
